@@ -176,14 +176,6 @@ body{
     justify-content: flex-start;
     padding: clamp(30px, 5vw, 100px) 0;
 }
-.fv-subcopy::after{
-    content: "";
-    display: inline-block;
-    width: 10px;
-    height: 80px;
-    background-color: var(--color-accent);
-    margin: 0 var(--space-ss);
-}
 .fv-list{
     width: 100%;
     max-width: 480px;
@@ -597,7 +589,7 @@ body{
 /* --- last　message --- */
 .message{
     width: 100%;
-    min-height: 860px;
+    max-height: 860px;
     /* 背景画像として設定 */
     background-image: url('../images/message-1.png');
     background-size: cover;    /* 画像を隙間なく敷き詰める */
